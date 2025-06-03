@@ -6,7 +6,7 @@ from pymongo.database import Database as MongoDatabase
 from datetime import datetime
 
 from secret import API_KEY, GUILD_ID
-from db_io import schedule_single_event, save_discussion_topic, load_discussion_topics, delete_discussion_topic
+from db_io import save_discussion_topic, load_discussion_topics, delete_discussion_topic
 from util import hash
 
 GUILD = discord.Object(id=GUILD_ID)
